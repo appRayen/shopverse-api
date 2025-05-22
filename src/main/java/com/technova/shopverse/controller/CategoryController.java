@@ -1,10 +1,10 @@
 package com.technova.shopverse.controller;
 
+import com.technova.shopverse.dto.CategoryDTO;
 import com.technova.shopverse.model.Category;
 import com.technova.shopverse.service.CategoryService; // Asumo que tienes un CategoryService
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
@@ -37,14 +37,11 @@ public class CategoryController {
     }
 
     @PostMapping
-    public ResponseEntity<Category> create(@Valid @RequestBody Category category, BindingResult result) {
-        if (result.hasErrors()) {
+    public ResponseEntity<Category> create(@Valid @RequestBody Category category) {
+        Category created = categoryService.createCategory(category);
 
-            return ResponseEntity.badRequest().body(null);
-        }
+        return ResponseEntity.status(201).body(created);
 
-        Category createdCategory = categoryService.createCategory(category);
-        return ResponseEntity.status(HttpStatus.CREATED).body(createdCategory); // 201 Created
     }
 
     @PutMapping("/{id}")
@@ -66,4 +63,5 @@ public class CategoryController {
             return ResponseEntity.notFound().build();
         }
     }
+
 }

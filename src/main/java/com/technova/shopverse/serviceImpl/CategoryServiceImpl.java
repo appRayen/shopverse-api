@@ -1,5 +1,6 @@
 package com.technova.shopverse.serviceImpl;
 
+import com.technova.shopverse.dto.CategoryDTO;
 import com.technova.shopverse.model.Category;
 import com.technova.shopverse.repository.CategoryRepository;
 import com.technova.shopverse.service.CategoryService;
@@ -40,4 +41,6 @@ public class CategoryServiceImpl implements CategoryService {
     public void deleteCategory(Long id) {
         categoryRepository.deleteById(id);
     }
+
+
 }

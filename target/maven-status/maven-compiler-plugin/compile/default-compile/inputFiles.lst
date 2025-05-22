@@ -1,0 +1,16 @@
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\model\Category.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\repository\ProductRepository.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\serviceImpl\ProductServiceImpl.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\controller\ProductController.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\dto\CategoryDTO.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\service\CategoryService.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\exceptions\ProductNotFoundExceptions.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\shopverseApiApplication.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\model\Customer.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\controller\CategoryController.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\repository\CategoryRepository.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\HealthCheckController.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\service\ProductService.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\dto\ProductDTO.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\model\Product.java
+C:\Curso\shopverse-api\src\main\java\com\technova\shopverse\serviceImpl\CategoryServiceImpl.java

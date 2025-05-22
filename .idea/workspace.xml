@@ -4,25 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de2c2abb-1f43-4f4f-9c0b-36cf2c6cb008" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/controller/ProductController.java" afterDir="false" />
+    <list default="true" id="de2c2abb-1f43-4f4f-9c0b-36cf2c6cb008" name="Changes" comment="Primer Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/HealthCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/HealthCheckController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/ShopeverseApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/shopverseApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/controller/CategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/serviceImpl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopeverse/serviceImpl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/serviceImpl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/technova/shopeverse/ShopeverseApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/technova/shopverse/ShopeverseApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/serviceImpl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/serviceImpl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/serviceImpl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/model/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/serviceImpl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/serviceImpl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/serviceImpl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/serviceImpl/ProductServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;appRayen&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -65,6 +75,12 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/appRayen/shopverse-api.git&quot;,
+    &quot;accountId&quot;: &quot;0ba0267e-ba0a-4ffa-956f-d7d6c5029ad8&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -82,6 +98,7 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2wj5eauGvT5OzlvPQ9BWK7nxIBd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -92,17 +109,23 @@
     "Application.null.executor": "Run",
     "Application.shopverseApiApplication.executor": "Run",
     "JUnit.All in shopeverse-api.executor": "Run",
+    "Maven.shopverse-api [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/m.arratia.fuentes/CursoJavaAvanzado/shopeverse-api",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
   <component name="RunManager" selected="Application.shopverseApiApplication">
     <configuration name="shopverseApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.technova.shopverse.shopverseApiApplication" />
@@ -157,5 +180,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$/" />
+    </ignored-roots>
   </component>
 </project>
