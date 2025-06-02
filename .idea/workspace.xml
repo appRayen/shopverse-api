@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de2c2abb-1f43-4f4f-9c0b-36cf2c6cb008" name="Changes" comment="Primer Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/batch/BatchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/batch/model/BatchJobRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/batch/model/CategoryCsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/batch/model/ProductCsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/shopverseApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technova/shopverse/shopverseApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/HealthCheckController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/ShopeverseApiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/controller/CategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/controller/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/model/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/model/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/repository/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/repository/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/service/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/serviceImpl/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopeverse/serviceImpl/ProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technova/shopverse/shopverseApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technova/shopverse/shopverseApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="de2c2abb-1f43-4f4f-9c0b-36cf2c6cb008" name="Changes" comment="Entrega final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,6 +151,15 @@
       <option name="presentableId" value="Default" />
       <updated>1746542238248</updated>
     </task>
+    <task id="LOCAL-00001" summary="Entrega final">
+      <option name="closed" value="true" />
+      <created>1748825618366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748825618366</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,5 +177,7 @@
     <ignored-roots>
       <path value="$USER_HOME$/" />
     </ignored-roots>
+    <MESSAGE value="Entrega final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entrega final" />
   </component>
 </project>
