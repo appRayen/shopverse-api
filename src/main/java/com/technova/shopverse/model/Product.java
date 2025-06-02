@@ -41,6 +41,8 @@ public class Product {
 
     }
 
+    public Product(Long id, String name, String description, Double price, Category category) {
+    }
 
 
     // Getters y Setters

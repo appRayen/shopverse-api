@@ -2,10 +2,13 @@ package com.technova.shopverse.controller;
 import com.technova.shopverse.dto.ProductDTO;
 import com.technova.shopverse.model.Product;
 import com.technova.shopverse.service.ProductService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -20,9 +23,12 @@ public class ProductController {
     @Autowired
 
     private ProductService productService;
-
+    @Operation(
+            summary = "Obtener todos los productos",
+            description = "Este endpoint devuelve una lista con todos los productos disponibles"
+    )
+    @ApiResponse(responseCode = "200", description = "Lista de productos retornada correctamente")
     @GetMapping
-
     public ResponseEntity<List<ProductDTO>> getAll() {
         List<ProductDTO> products = productService.getAllProducts();
         if (products.isEmpty()) {
@@ -39,7 +45,7 @@ public class ProductController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping
     public ResponseEntity<Product> create(@Valid @RequestBody Product product, BindingResult result) {
         if (result.hasErrors()) {
@@ -49,7 +55,7 @@ public class ProductController {
         Product createdProduct = productService.createProduct(product);
         return ResponseEntity.status(HttpStatus.CREATED).body(createdProduct);
     }
-
+    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/{id}")
     public ResponseEntity<Product> update(@PathVariable Long id, @RequestBody Product product) {
         try {
